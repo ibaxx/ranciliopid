@@ -36,7 +36,7 @@ enum MACHINE {
 #define SCREEN_WIDTH 128           // OLED display width, in pixels
 #define SCREEN_HEIGHT 64           // OLED display height, in pixels
 #define SHOTTIMER 1                // 0 = deactivated, 1 = activated 2 = with scale
-#define HEATINGLOGO 0              // 0 = deactivated, 1 = Rancilio, 2 = Gaggia
+#define HEATINGLOGO 3               // 0 = deactivated, 1 = Rancilio, 2 = Gaggia, 3 = new Gaggia with new Heizlogo, 4 = Rancilio with new Heizlogo, 5 = Old Gaggia with new Heizlogo
 #define OFFLINEGLOGO 1             // 0 = deactivated, 1 = activated
 #define BREWSWITCHDELAY 3000       // time in ms that the brew switch will be delayed (shot timer will show that much longer after switching off)
 #define VERBOSE 0                  // 1 = Show verbose output (serial connection), 0 = show less
